@@ -1,0 +1,64 @@
+* {
+  font-family: "Sancreek", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+html {
+  background-color: #1a1a1d;
+}
+h1 {
+  font-family: "Sancreek", sans-serif;
+  font-size: 6em;
+  color: #861212;
+  -webkit-text-stroke: 1px black;
+}
+h3 {
+  padding-top: 0.2em;
+  font-size: 2em;
+}
+#grid {
+  margin: 0 auto;
+  align-content: center;
+  max-width: 820px;
+  height: min-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#grid img {
+  margin: 0.1em;
+  height: 200px;
+  border-radius: 5px;
+  background-color: #2a2a2f;
+}
+button {
+  color: #1a1a1d;
+}
+@media (max-width: 820px) {
+  h1 {
+    font-size: 4em;
+  }
+  #grid {
+    width: 420px;
+    height: min-content;
+  }
+  #grid img {
+    height: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 3em;
+  }
+  #grid {
+    width: 340px;
+    height: min-content;
+  }
+  #grid img {
+    height: 80px;
+  }
+}
