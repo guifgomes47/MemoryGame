@@ -1,5 +1,5 @@
 * {
-  font-family: "Sancreek", sans-serif;
+  font-family: "Poiret one", sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -9,14 +9,80 @@ html {
   background-color: #1a1a1d;
 }
 h1 {
-  font-family: "Sancreek", sans-serif;
+  font-family: "Poiret one", sans-serif;
   font-size: 6em;
-  color: #861212;
-  -webkit-text-stroke: 1px black;
+  padding-bottom: 10px;
 }
 h3 {
   padding-top: 0.2em;
   font-size: 2em;
+}
+button{
+  margin-top: 10px;
+  position: relative;
+  padding: 10px 40px;
+  float: center;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  text-decoration: none;
+  background-color: #2ecc71;
+  border-bottom: 5px solid #27ae60;
+  -webkit-transition: all 0.1s;  
+  transition: all 0.1s;
+}
+button:hover, button:active{
+  -webkit-transform: translate(0px, 5px);
+  -ms-transform: translate(0px, 5px);
+  transform: translate(0px, 5px);
+  border-bottom: 1px solid #2ecc71;
+}
+button#red{
+  background-color: #bc4949;
+  border-bottom: 5px solid #a94141
+}
+button#red:hover, button:active{
+  border-bottom: 1px solid #bc4949;
+}
+button#green{
+  background-color: #5bbc49;
+}
+button#green{
+  background-color: #5bbc49;
+  border-bottom: 5px solid #27ae60
+}
+button#green:hover, button:active{
+  border-bottom: 1px solid #5bbc49;
+}
+button#blue{
+  background-color: #49acbc;
+}
+button#blue{
+  background-color: #49acbc;
+  border-bottom: 5px solid #419aa9;
+}
+button#blue:hover, button:active{
+  border-bottom: 1px solid #49acbc;
+}
+button#purple{
+  background-color: #aa49bc;
+}
+button#purple{
+  background-color: #aa49bc;
+  border-bottom: 5px solid #9941a9;
+}
+button#purple:hover, button:active{
+  border-bottom: 1px solid #aa49bc;
+}
+button#sand{
+  background-color: #bc8a49;
+}
+button#sand{
+  background-color: #bc8a49;
+  border-bottom: 5px solid #a97c41;
+}
+button#sand:hover, button:active{
+  border-bottom: 1px solid #bc8a49;
 }
 #grid {
   margin: 0 auto;
@@ -32,7 +98,7 @@ h3 {
   margin: 0.1em;
   height: 200px;
   border-radius: 5px;
-  background-color: #2a2a2f;
+  background-color: #bc4949;
 }
 button {
   color: #1a1a1d;

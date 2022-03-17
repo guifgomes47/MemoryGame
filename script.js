@@ -60,6 +60,7 @@ function createBoard() {
   cardArray.forEach(function (item, index) {
     const card = document.createElement("img");
     card.setAttribute("src", "./assets/pattern.png");
+    card.setAttribute("id", "img-card")
     card.setAttribute("data-id", index);
     card.addEventListener("click", flipCard);
     gridDisplay.append(card);
@@ -117,4 +118,12 @@ function flipCard() {
   if (cardsChosen.length === 2) {
     checkMatch();
   }
+}
+
+function changeImageBackgroundColor(color) {
+  const gridElements = document.querySelectorAll('#grid img');
+  gridElements.forEach(child => {
+    console.log(child);
+    child.style.backgroundColor = color;
+})
 }
